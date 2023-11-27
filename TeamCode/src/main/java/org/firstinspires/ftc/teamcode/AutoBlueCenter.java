@@ -43,9 +43,15 @@ import org.firstinspires.ftc.robotcore.internal.camera.delegating.DelegatingCapt
  */
 public class AutoBlueCenter extends LinearOpMode{
 
+    //motors
 
     @Override
     public void runOpMode() throws InterruptedException {
 
+        //init
+
+        waitForStart();
+
+        //code
     }
 }
