@@ -2,7 +2,9 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 import org.firstinspires.ftc.robotcore.internal.camera.delegating.DelegatingCaptureSequence;
@@ -41,10 +43,10 @@ import org.firstinspires.ftc.robotcore.internal.camera.delegating.DelegatingCapt
  * If !ParkCenter, go backwards a-b units
  *
  */
-public class AutoBlueCenter extends LinearOpMode{
+public abstract class AutoBlueCenter extends LinearOpMode {
 
     //motors
-
+    //PasteMotors.pasteMotors();
     @Override
     public void runOpMode() throws InterruptedException {
 
